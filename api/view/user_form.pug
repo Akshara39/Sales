@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  form(action='/users/create' method='post') // Update the action based on your routes
+    // Add form fields for user creation/update
+    input(type='text' name='user_name' placeholder='User Name')
+    input(type='text' name='email_id' placeholder='Email ID')
+    input(type='password' name='password' placeholder='Password')
+    input(type='text' name='role' placeholder='Role')
+    input(type='date' name='date_of_joining' placeholder='Date of Joining')
+    input(type='submit' value='Submit')

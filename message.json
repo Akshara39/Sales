@@ -1,0 +1,45 @@
+{
+    "database" : {
+        "ERROR_CONNECTING": "error connecting database",
+        "CONNECTED": "Database Connection Established"
+    },
+
+    "USER": {
+        "Something_Went_Wrong" : "Something went wrong",
+        "USER_NOT_FOUND" : "User Not Found",
+        "WRONG_PASSWORD" : "Wrong Credential",
+        "USER_EXIST": "User Exist",
+        "USER_CREATED": "User Created"
+    },
+
+    "admin": {
+        "NEW_USER_REGISTER" : "USER Added !"
+    },
+
+    "AUTH" : {
+        "TOCKEN_REQUIRED": "A token is required for authentication",
+        "INVALID_TOCKEN" : "Invalid Token"
+    },
+    
+    "Error" : {
+         
+        "Error_Message" : "There is an error"
+    },
+
+    "VENDOR" : {
+         
+        "Vendor_category"    : "Vendor category not found",
+        "Vendor_Not_Found" : "Vendor not Found"
+
+    },
+
+    "Sales" : {
+            
+       "No_Sales" : " Sales status not found"
+    },
+
+    "Lead" :{
+    
+       "Lead_Not_Found" : "Lead status not found"
+    }
+}

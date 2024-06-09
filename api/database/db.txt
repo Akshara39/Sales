@@ -1,0 +1,19 @@
+CREATE TABLE user{
+    
+    user_id integer [primary key]
+    user_name varchar(50)
+    email_id  varchar
+    password  varchar
+    isadmin   boolean
+    date_of_joining  Date
+
+}
+
+CREATE TABLE feedback{
+
+    feedback_from   integer
+    feedback_to     integer
+    feedback   varchar(500)
+    feedback_date  Date
+
+}
